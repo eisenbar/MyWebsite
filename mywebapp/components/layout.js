@@ -2,6 +2,7 @@ import styles from '../styles/layout.module.css';
 import Head from 'next/head';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import React from "react";
 
 const name = 'Ryan Eisenbarth';
 export const siteTitle = "Ryan's Site";
@@ -32,7 +33,7 @@ export default function Layout({ children, home }) {
                             className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                             alt={name}
                         />
-                        <h1 className={utilStyles.heading2Xl}>{name}</h1>
+                        <h2 className={utilStyles.heading2Xl}>{name}</h2>
                     </>
                 ) : (
                     <>
