@@ -8,8 +8,8 @@ export const TransitionExit = (props, router) => {
                 opacity: 0
             },
             pageAnimate: {
-                opacity: 100
-            },
+                opacity: 1
+            }
         }}>
             {props}
       </motion.div>
