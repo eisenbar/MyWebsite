@@ -1,6 +1,7 @@
 import '../styles/global.css'
 import React from 'react';
 import { motion } from 'framer-motion';
+import "../styles/exampleStyle.css";
 
 function App({ Component, pageProps, router }) {
     return (
