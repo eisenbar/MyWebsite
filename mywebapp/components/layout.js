@@ -3,6 +3,7 @@ import Head from 'next/head';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import React from "react";
+import {TitleLoadFade} from "../animations/TitleLoadFade";
 
 const name = 'Ryan Eisenbarth';
 export const siteTitle = "Ryan's Site";
@@ -33,7 +34,10 @@ export default function Layout({ children, home }) {
                             className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
                             alt={name}
                         />
-                        <h2 className={utilStyles.heading2Xl}>{name}</h2>
+                        <TitleLoadFade
+                        title={
+                            <h2 className={utilStyles.heading2Xl}>{name}</h2>
+                        }/>
                     </>
                 ) : (
                     <>
