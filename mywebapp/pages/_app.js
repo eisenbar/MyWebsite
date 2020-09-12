@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 function App({ Component, pageProps, router }) {
     return (
-        <div className="bg">
+
         <motion.div key={router.route}  initial="pageInitial" animate="pageAnimate" variants={{
             pageInitial: {
                 opacity: 0
@@ -15,7 +15,6 @@ function App({ Component, pageProps, router }) {
         }} >
             <Component {...pageProps} />
         </motion.div>
-        </div>
     )
 }
 
