@@ -5,7 +5,7 @@ import Hamburger from './hamburgerMenu';
 export default function Header() {
     return (
         <div className={`${headerStyle.bg} ${headerStyle.header}`}>
-            <Hamburger pageWrapId={"page-wrap"} outerContainerId={"Header"}/>
+            <Hamburger/>
         </div>
     );
 }
