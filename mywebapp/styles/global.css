@@ -8,8 +8,8 @@ body {
     font-size: 18px;
 }
 html {
+
     background-image: url('../public/images/spaceBackground.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;
