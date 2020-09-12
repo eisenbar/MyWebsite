@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import React from "react";
 import {TitleLoadFade} from "../animations/TitleLoadFade";
+import Footer from "./footer";
 
 const name = 'Ryan Eisenbarth';
 export const siteTitle = "Ryan's Site";
@@ -66,6 +67,8 @@ export default function Layout({ children, home }) {
                     </Link>
                 </div>
             )}
+            <Footer/>
         </div>
+
     )
 }
