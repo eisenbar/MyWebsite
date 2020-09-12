@@ -1,3 +1,10 @@
 .bg {
-    background: aquamarine;
+background: burlywood;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }

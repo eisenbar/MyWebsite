@@ -5,6 +5,7 @@ import Link from 'next/link';
 import React from "react";
 import {TitleLoadFade} from "../animations/TitleLoadFade";
 import Footer from "./footer";
+import Header from "./header";
 
 const name = 'Ryan Eisenbarth';
 export const siteTitle = "Ryan's Site";
@@ -27,6 +28,7 @@ export default function Layout({ children, home }) {
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
+            <Header/>
             <header className={styles.header}>
                 {home ? (
                     <>

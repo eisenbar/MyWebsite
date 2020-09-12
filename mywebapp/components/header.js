@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Header() {
     return (
-        <div className={style.bg}>
+        <div className={`${style.bg} ${style.header}`}>
             I am the header
         </div>
     );
