@@ -13,8 +13,11 @@ export default function AboutMe() {
                 career. Fast forward 4 years I am not a web-developer for Meijer  with a passion for full-stack
                 development.</p><br/>
                 <p>Through an internship and eventually full time position at Meijer I have gotten the opportunity to
-                an appreciation of Shipt delivery fulfillment, Meijer promo code implementation, and the LINK outdoors!
-                Check out my experiences page to learn more of what I have done over the years LINK here!</p><br/>
+                an appreciation of Shipt delivery fulfillment, Meijer promo code implementation, and the
+                    {' '}<a href="/adventures">outdoors</a>!
+                Check out my experiences page to learn more of what I have done over the years
+                    {' '}<a href="/experiences">here</a>!
+                </p><br/>
                 <p>I am an avid hiker, puzzler, and programmer. Thank you for checking out my page and explore around
                     to see what I am all about :)
                 </p>

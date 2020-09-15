@@ -71,6 +71,12 @@ export default function Home({allPostsData}) {
                   </Link>
               </div>
 
+              <div className={utilStyles.indexItem}>
+                  <Link href="/adventures">
+                      <a>Adventures</a>
+                  </Link>
+              </div>
+
 
           </section>
       </Layout>
