@@ -12,7 +12,7 @@ export default function Hamburger({props}) {
          <a id="about" className={menuItem} href="/aboutMe">About Me</a>
          <a id="skills" className={menuItem} href="/skills">Skills</a>
          <a id="experience" className={menuItem} href="/experience">Experience</a>
-
+         <a id="adventures" className={menuItem} href="/adventures">Adventures</a>
      </Menu>
     );
 }
