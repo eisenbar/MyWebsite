@@ -79,6 +79,8 @@ export default function Home({allPostsData}) {
 
 
           </section>
+
+          <p>Special thanks to NextJS Tutorial and Framer-Motion for getting me started on this project!</p>
       </Layout>
   )
 }
