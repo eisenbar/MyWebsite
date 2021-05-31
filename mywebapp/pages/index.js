@@ -48,30 +48,18 @@ export default function Home({allPostsData}) {
               <TitleLoadFade title={<h1 className={utilStyles.header}>Index</h1>} />
 
               <div className={utilStyles.indexItem}>
-                  <Link href="/Example">
-                      <a>Example</a>
-                  </Link>
-              </div>
-
-              <div className={utilStyles.indexItem}>
                   <Link href="/aboutMe">
                       <a>About Me</a>
                   </Link>
-              </div>
 
-              <div className={utilStyles.indexItem}>
                   <Link href="/skills">
                       <a>Skills</a>
                   </Link>
-              </div>
 
-              <div className={utilStyles.indexItem}>
                   <Link href="/experience">
                       <a>Experience</a>
                   </Link>
-              </div>
 
-              <div className={utilStyles.indexItem}>
                   <Link href="/adventures">
                       <a>Adventures</a>
                   </Link>
@@ -80,7 +68,7 @@ export default function Home({allPostsData}) {
 
           </section>
 
-          <p>Special thanks to NextJS Tutorial and Framer-Motion for getting me started on this project!</p>
+          <p className={utilStyles.text}>Special thanks to NextJS Tutorial and Framer-Motion for getting me started on this project!</p>
       </Layout>
   )
 }

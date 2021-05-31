@@ -3,6 +3,10 @@ import {motion, useMotionValue, useTransform} from "framer-motion";
 import styles from '../styles/exampleStyle.module.css';
 import Layout from "../components/layout";
 
+/*
+NOT BEING USED
+ */
+
 export default function Example() {
     const boxVariants = {
         checked: {scale: 1, background: "rgba(255, 255, 255, 1)"},
