@@ -5,7 +5,8 @@ export default function Adventures() {
 
     return (
         <Layout>
-            <div>Adventures</div>
+            <header>UNDER CONSTRUCTION!!!!!</header>
+            <p>I will be adding some cool adventure details in the future!</p>
         </Layout>
     );
 }
