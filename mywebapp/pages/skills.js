@@ -2,7 +2,7 @@ import Layout from "../components/layout";
 import React from "react";
 
 
-export default function AboutMe() {
+export default function Skills() {
     return (
         <Layout>
             <div>

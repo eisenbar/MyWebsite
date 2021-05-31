@@ -45,7 +45,7 @@ export default function Home({allPostsData}) {
           </Head>
 
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} `}>
-              
+
               <TitleLoadFade title={<h1 className={utilStyles.header}>Index</h1>} />
 
               <div className={utilStyles.indexItem}>
