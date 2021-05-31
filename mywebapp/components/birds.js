@@ -14,13 +14,13 @@ export default function Birds({home}) {
             </div>
 
             <div className={`${style.birdContainer} ${style.birdContainerTwo}`}>
-                <div className={`${style.bird1} ${style.birdTwo}`}/>
+                <div className={`${style.bird} ${style.birdTwo}`}/>
             </div>
             <div className={`${style.birdContainer} ${style.birdContainerThree}`}>
-                <div className={`${style.bird1} ${style.birdThree}`}/>
+                <div className={`${style.bird} ${style.birdThree}`}/>
             </div>
             <div className={`${style.birdContainer} ${style.birdContainerFour}`}>
-                <div className={`${style.bird1} ${style.birdFour}`}/>
+                <div className={`${style.bird} ${style.birdFour}`}/>
             </div>
 
         </div>

@@ -8,6 +8,7 @@ import React from "react";
 import {TitleLoadFade} from "../animations/TitleLoadFade";
 import {TransitionExit} from "../animations/TransitionExit";
 import { motion } from "framer-motion";
+import Birds from "../components/birds";
 
 
 /*
@@ -44,10 +45,11 @@ export default function Home({allPostsData}) {
           </Head>
 
           <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} `}>
-
+              
               <TitleLoadFade title={<h1 className={utilStyles.header}>Index</h1>} />
 
               <div className={utilStyles.indexItem}>
+
                   <Link href="/aboutMe">
                       <a>About Me</a>
                   </Link>
@@ -64,9 +66,9 @@ export default function Home({allPostsData}) {
                       <a>Adventures</a>
                   </Link>
               </div>
-
-
           </section>
+
+          <Birds/>
 
           <p className={utilStyles.text}>Special thanks to NextJS Tutorial and Framer-Motion for getting me started on this project!</p>
       </Layout>
